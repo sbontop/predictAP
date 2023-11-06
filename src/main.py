@@ -11,6 +11,7 @@ INDEX_FILE_PATH = "src/index/index.json"
 
 
 index = build_index(INDEX_FILE_PATH, BASE_DATA_DIR)
+print(f"{index =}")
 
 search_name, search_size, search_content_type = get_search_criteria()
 search_results = search_files(

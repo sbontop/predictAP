@@ -17,15 +17,15 @@ def search_files(
     :return:
     """
     results = []
-
-    if name is None and size is None and content_type is None:
+    print(f"{name =}, {size = }, {content_type = }")
+    if (not name) and (not size) and (not content_type):
         return []
 
     for file_name, file_info in index.items():
-        matches_name = (name is None) or (name.lower() in file_name.lower())
-        matches_size = (size is None) or (str(file_info["size"]) == str(size))
-        matches_content_type = (content_type is None) or (
-            content_type.lower() == file_info["content_type"].lower()
+        matches_name = (not name) or (name.lower() in file_name.lower())
+        matches_size = (not size) or (str(file_info["size"]) == str(size))
+        matches_content_type = (not content_type) or (
+            content_type.lower() in file_info["content_type"].lower()
         )
 
         if matches_name and matches_size and matches_content_type:
