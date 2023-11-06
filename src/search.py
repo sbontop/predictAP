@@ -6,8 +6,6 @@ def search_files(
 ) -> list[str]:
     results = []
 
-    print(f"{name = }, {size = }, {content_type = }")
-
     if name is None and size is None and content_type is None:
         return []
 
