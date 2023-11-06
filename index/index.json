@@ -1,0 +1,22 @@
+{
+  "dummy_image_2.jpg": {
+    "size": 823,
+    "content_type": "image/jpeg"
+  },
+  "dummy_image_1.jpg": {
+    "size": 823,
+    "content_type": "image/jpeg"
+  },
+  "dummy_image_0.jpg": {
+    "size": 823,
+    "content_type": "image/jpeg"
+  },
+  "user1.json": {
+    "size": 39,
+    "content_type": "application/json"
+  },
+  "user2.json": {
+    "size": 39,
+    "content_type": "application/json"
+  }
+}

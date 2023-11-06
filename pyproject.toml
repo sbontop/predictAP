@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "predictap"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Braganza Z <sbraganz@fiec.espol.edu.ec>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.4.3"
+isort = "^5.12.0"
+black = "^23.10.1"
+pytest-xdist = "^3.3.1"
+pytest-socket = "^0.6.0"
+pillow = "^10.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+line_length = 120
