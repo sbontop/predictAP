@@ -1,22 +1,22 @@
 {
-  "dummy_image_2.jpg": {
-    "size": 823,
-    "content_type": "image/jpeg"
+  "linear-regression-plot.jpg": {
+    "content_type": "image/jpeg",
+    "size": 19782
   },
-  "dummy_image_1.jpg": {
-    "size": 823,
-    "content_type": "image/jpeg"
+  "random-forest.png": {
+    "content_type": "image/png",
+    "size": 170098
   },
-  "dummy_image_0.jpg": {
-    "size": 823,
-    "content_type": "image/jpeg"
+  "sample.pdf": {
+    "content_type": "application/pdf",
+    "size": 6566
   },
   "user1.json": {
-    "size": 39,
-    "content_type": "application/json"
+    "content_type": "application/json",
+    "size": 16
   },
   "user2.json": {
-    "size": 39,
-    "content_type": "application/json"
+    "content_type": "application/json",
+    "size": 17
   }
 }

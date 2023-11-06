@@ -1,9 +1,21 @@
+"""
+Search module
+"""
+
 from typing import Any
 
 
 def search_files(
-    index: dict[str, Any], name: str = None, size: str = None, content_type: str = None
+    index: dict[str, Any], name: str = "", size: str = "", content_type: str = ""
 ) -> list[str]:
+    """
+    Perform search by multiple different arguments
+    :param index:
+    :param name:
+    :param size:
+    :param content_type:
+    :return:
+    """
     results = []
 
     if name is None and size is None and content_type is None:
