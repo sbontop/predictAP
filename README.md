@@ -11,5 +11,18 @@ Challenge: A directory contains multiple files and directories of non-uniform fi
 1. ```git clone git@github.com:sbontop/predictAP.git```
 2. ```cd predictAP```
 3. ```poetry install```
-4. ```poetry shell```
-5. ```python src/main.py```
+
+### Usage
+1. ```poetry shell```
+2. ```python src/main.py```
+- Please note you'll be using either the cached data from `src/index/index.json` or from `src/test_data/` directory.
+
+### Testing
+1. ```make unit-test```
+- You'll find the tests for every module under `tests/unit/` directory.
+- Note: Unit and e2e tests weren't added since considered unnecessary. Consider adding your own tests as you may need.
+
+### Extras
+- Implemented Git Pre-commit Hooks to encourage developers to write clean code and follow best practices.
+- Implemented SOLID principles.
+- Implemented a Makefile to write useful commands.
