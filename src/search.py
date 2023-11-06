@@ -17,7 +17,6 @@ def search_files(
     :return:
     """
     results = []
-    print(f"{name =}, {size = }, {content_type = }")
     if (not name) and (not size) and (not content_type):
         return []
 
