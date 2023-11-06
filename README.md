@@ -8,13 +8,17 @@ Challenge: A directory contains multiple files and directories of non-uniform fi
 - pip
 
 ### Installation
-1. ```git clone git@github.com:sbontop/predictAP.git```
-2. ```cd predictAP```
-3. ```poetry install```
+```
+git clone git@github.com:sbontop/predictAP.git```
+cd predictAP
+poetry install
+```
 
 ### Usage
-1. ```poetry shell```
-2. ```python src/main.py```
+```
+poetry shell
+python src/main.py
+```
 - Please note you'll be using either the cached data from `src/index/index.json` or parse data to generate index from `src/test_data/` directory.
 - `src/test_data/` looks like this:
 ```
